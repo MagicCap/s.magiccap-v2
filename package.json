@@ -1,0 +1,23 @@
+{
+  "name": "s.magiccap-v2",
+  "version": "1.0.0",
+  "description": "The MagicCap link shortener, re-written using RethinkDB, DigitalOcean K8S and Express.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magiccap/s.magiccap-v2.git"
+  },
+  "keywords": [
+    "shortener"
+  ],
+  "author": "Jake Gealer",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/magiccap/s.magiccap-v2/issues"
+  },
+  "homepage": "https://github.com/magiccap/s.magiccap-v2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rethinkdb": "^2.3.3"
+  }
+}
